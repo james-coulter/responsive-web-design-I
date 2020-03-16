@@ -224,8 +224,9 @@ header {
 	justify-content: space-evenly;
 	align-content: space-around;
 	flex-wrap: wrap;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
+	box-sizing: border-box;
 	
 }
 
@@ -238,6 +239,7 @@ header {
 	width: 45%;
 	border: 1px solid black;
 	background: rgb(245, 240, 240);
+	box-sizing: border-box;
 }
 
 .smallerBox {
@@ -247,6 +249,8 @@ header {
 	width: 90%;
 	padding-left: 5%;
 	font-size: 16px;
+	box-sizing: border-box;
+	
 
 	
 }
@@ -258,6 +262,8 @@ header {
 	border-radius: 3px;
 	align-content: center;
 	padding: 1% 7%;
+	box-sizing: border-box;
+	
 }
 
 .lastSection {
@@ -345,6 +351,29 @@ header {
 	.sectionThree {
 		font-size: 18px;
 	}
+
+	.tableSeven {
+		margin-bottom: 5%;
+	}
+
+	
+
+	.smallBox {
+		display: flex;
+		width: 45%;
+	}
+
+	.smallerBox {
+		display: flex;
+		font-size: 0.75rem;
+	}
+
+	.smallerBox a {
+		align-items: center;
+		align-content: center;
+
+	}
+
 }
 
 @media (max-width: 500px) {
@@ -469,5 +498,56 @@ header {
 		text-align: center;
 		margin: 0 auto;
 		height: 5vh;
+	}
+
+	.tableSeven {
+		margin-bottom: 10%;
+		margin-top: 8%;
+		margin-left: 3%;
+		width: 95%;
+	}
+
+	.sixGrids {
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		height: 150vh;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: 2%;
+	}
+	
+	.smallBox {
+		display: flex;
+		flex-wrap: wrap;
+		width: 90%;
+		height: 18vh;
+	}
+
+	.smallerBox {
+		display: flex;
+		font-size: 0.75rem;
+		padding: 2%;
+	}
+
+	.smallerBox a {
+		align-items: center;
+		align-content: center;
+
+	}
+
+	.lastSection img {
+		display: none;
+	}
+
+	.lastSection {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.facts {
+		width: 90%;
+		padding-top: 4%;
+		padding-bottom: 4%;
 	}
 }
