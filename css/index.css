@@ -349,4 +349,125 @@ header {
 
 @media (max-width: 500px) {
 
+	body{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 0;
+	}
+
+	header {
+		width: 100%;
+		margin: 0;
+	}
+
+	.topnav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+
+	.hiddenLogo {
+		padding: 5%;
+
+		width: 50%;
+	}
+
+	.topnav a {
+		width: 100%;
+		padding: 3%;
+		text-align: center;
+		justify-content: center;
+		border-top: 0.5px solid black;
+		border-bottom: 0.5px solid black;
+	}
+
+	.hero {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		height: 43vh;
+	}
+
+	.bigText {
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.bigText h1 {
+		text-align: center;
+		font-size: 70%;
+	}
+
+	.bigText a {
+		font-size: 1rem;
+		
+	}
+	
+	hr {
+		border-top: 0.5px solid black;
+		width: 95%;
+	}
+	.sectionTwo {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 50vh;
+
+	}
+
+	.tableTwo {
+		width: 95%;
+	}
+
+	.tableThree {
+		width: 95%;
+	}
+
+	.matrix {
+		justify-content: center;
+		margin: 0 auto;
+		width: 95%;
+	}
+
+	.sectionThree {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 78vh;
+
+	}
+
+	.tableFour {
+		width: 95%;
+	}
+
+	.tableFive {
+		width: 95%;
+	}
+
+	.tableSix {
+		width: 95%;
+	}
+
+	.contact {
+		width: 95%;
+		margin: 0 auto;
+		height: 35vh;
+	}
+
+	.contact h3 {
+		padding: 4% 0%;
+	}
+
+	footer {
+		text-align: center;
+		margin: 0 auto;
+		height: 5vh;
+	}
 }
