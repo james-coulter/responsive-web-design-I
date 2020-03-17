@@ -1,3 +1,553 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 5%;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*padding: 14px 60px;*/
+}
+.topnav  {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+
+}
+ .topnav a {
+	color: lightgrey;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+}
+.logo {
+    width: 15%;
+
+	
+}
+.hero {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 75vh;
+	width: 100%;
+
+}
+.bigText {
+	display: flex;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 75px;
+	flex-direction: column;
+	height: 75vh;
+}
+
+.bigText h1 {
+	width: 40%;
+}
+.bigText a {
+	width: 25%;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 20px;
+	padding: 1% 1%;
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	width: 45%;
+	
+}
+
+hr {
+	display: block;
+	border: 0.5px solid black;
+}
+.sectionTwo {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	height: 30vh;
+}
+
+.sectionAcross {
+	display: flex;
+	width: 100%;
+}
+
+.tableTwo {
+	
+	width: 45%;
+}
+.tableThree {
+	width: 45%;
+}
+.middle-img {
+	display: flex;
+	width: 100%;
+}
+.sectionThree {
+	font-size: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	height: 40vh;
+}
+.tableFour {
+	width: 27%;
+}
+.tableFive {
+	width: 27%;
+}
+.tableSix {
+	width: 27%;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+.contact h3 {
+	font-weight: strong;
+	height: 2vh;
+
+}
+
+.contact address {
+	flex-direction: column;
+}
 
 
+footer {
+	display: flex;
+	justify-content: center;
+	height: 20vh;
+}
+
+.matrix {
+	display: flex;
+	
+}
+.services-header-img {
+	display: flex;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+}
+
+.tableSeven {
+	display: flex;
+	flex-direction: column;
+	height: 10vh;
+}
+
+.sixGrids {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: space-around;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	
+}
+
+.smallBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-content: space-around;
+	height: 25vh;
+	width: 45%;
+	border: 1px solid black;
+	background: rgb(245, 240, 240);
+	box-sizing: border-box;
+}
+
+.smallerBox {
+	display: flex;
+	flex-wrap: wrap;
+	height: 20vh;
+	width: 90%;
+	padding-left: 5%;
+	font-size: 16px;
+	box-sizing: border-box;
+	
+
+	
+}
+.smallerBox a {
+	border: 1px solid black;
+	text-decoration: none;
+	background: white;
+	color: black;
+	border-radius: 3px;
+	align-content: center;
+	padding: 1% 7%;
+	box-sizing: border-box;
+	
+}
+
+.lastSection {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.facts {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	
+}
+
+.list {
+	align-items: baseline;
+	justify-content: center;
+	list-style-position: inside;
+	padding-left: 5%;
+}
+.lastSection .services-info-img {
+	width: 45%;
+}
+
+.lastSection .facts ul li {
+	list-style-type: square;
+}
+
+.hiddenLogo {
+    display: none;
+        
+}
+
+@media (max-width: 800px) {
+
+    /*body {
+        margin: 5%;
+    } */
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+
+
+    .topnav {
+        width: 100%;
+    }
+
+    .logo {
+        visibility: hidden;
+    }
+
+    .hiddenLogo {
+        display: block;
+        width: 25%;
+        padding-bottom: 7%;
+    }
+
+    .bigText {
+		display: flex;
+		width: 100%;
+		height: 55vh;
+	}
+	
+	.hero {
+		height: 60vh;
+	}
+
+    .bigText h1 {
+        align-content: center;
+	}
+
+	.image {
+		display: none;
+	}
+
+	.sectionTwo {
+		font-size: 18px;
+	}
+	
+	.sectionThree {
+		font-size: 18px;
+	}
+
+	.tableSeven {
+		margin-bottom: 5%;
+	}
+
+	
+
+	.smallBox {
+		display: flex;
+		width: 45%;
+	}
+
+	.smallerBox {
+		display: flex;
+		font-size: 0.75rem;
+	}
+
+	.smallerBox a {
+		align-items: center;
+		align-content: center;
+
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	body{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		margin: 0;
+	}
+
+	header {
+		width: 100%;
+		margin: 0;
+	}
+
+	.topnav {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+
+	.hiddenLogo {
+		padding: 5%;
+
+		width: 50%;
+	}
+
+	.topnav a {
+		width: 100%;
+		padding: 3%;
+		text-align: center;
+		justify-content: center;
+		border-top: 0.5px solid black;
+		border-bottom: 0.5px solid black;
+	}
+
+	.hero {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		height: 43vh;
+	}
+
+	.bigText {
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.bigText h1 {
+		text-align: center;
+		font-size: 70%;
+	}
+
+	.bigText a {
+		font-size: 1rem;
+		
+	}
+	
+	hr {
+		border-top: 0.5px solid black;
+		width: 95%;
+	}
+	.sectionTwo {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 50vh;
+
+	}
+
+	.tableTwo {
+		width: 95%;
+	}
+
+	.tableThree {
+		width: 95%;
+	}
+
+	.matrix {
+		justify-content: center;
+		margin: 0 auto;
+		width: 95%;
+	}
+
+	.sectionThree {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 78vh;
+
+	}
+
+	.tableFour {
+		width: 95%;
+	}
+
+	.tableFive {
+		width: 95%;
+	}
+
+	.tableSix {
+		width: 95%;
+	}
+
+	.contact {
+		width: 95%;
+		margin: 0 auto;
+		height: 35vh;
+	}
+
+	.contact h3 {
+		padding: 4% 0%;
+	}
+
+	footer {
+		text-align: center;
+		margin: 0 auto;
+		height: 5vh;
+	}
+
+	.tableSeven {
+		margin-bottom: 10%;
+		margin-top: 8%;
+		margin-left: 3%;
+		width: 95%;
+	}
+
+	.sixGrids {
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		height: 150vh;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom: 2%;
+	}
+	
+	.smallBox {
+		display: flex;
+		flex-wrap: wrap;
+		width: 90%;
+		height: 18vh;
+	}
+
+	.smallerBox {
+		display: flex;
+		font-size: 0.75rem;
+		padding: 2%;
+	}
+
+	.smallerBox a {
+		align-items: center;
+		align-content: center;
+
+	}
+
+	.lastSection img {
+		display: none;
+	}
+
+	.lastSection {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.facts {
+		width: 90%;
+		padding-top: 4%;
+		padding-bottom: 4%;
+	}
+}
